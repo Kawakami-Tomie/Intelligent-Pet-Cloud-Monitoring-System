@@ -1,0 +1,67 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "宠物姿态监测"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "宠物位置监测"
+			}
+		},
+		{
+			"path": "pages/map/index",
+			"style": {
+				"navigationBarTitleText": "宠物数据监测"
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "宠物视角监控"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/dog1.png",
+				"selectedIconPath": "static/dog2.png",
+				"text": "修勾"
+			}, {
+				"pagePath": "pages/category/index",
+				"iconPath": "static/weizhi1.png",
+				"selectedIconPath": "static/weizhi2.png",
+				"text": "位置"
+
+			},
+			{
+				"pagePath": "pages/map/index",
+				"iconPath": "static/shuju1.png",
+				"selectedIconPath": "static/shuju2.png",
+				"text": "数据"
+
+			},
+			{
+				"pagePath": "pages/video/video",
+				"iconPath": "static/shipin.png",
+				"selectedIconPath": "static/shipin1.png",
+				"text": "监控"
+			
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
