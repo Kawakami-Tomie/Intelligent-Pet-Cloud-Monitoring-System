@@ -1,0 +1,9 @@
+demo\delay.o: ..\MPU6050\delay.c
+demo\delay.o: D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h
+demo\delay.o: .\RTE\_Demo\RTE_Components.h
+demo\delay.o: ../Drivers/CMSIS/Include/core_cm3.h
+demo\delay.o: D:\Keil_MDK\ARM\ARMCC\Bin\..\include\stdint.h
+demo\delay.o: ../Drivers/CMSIS/Include/cmsis_version.h
+demo\delay.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+demo\delay.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+demo\delay.o: D:\Keil_MDK\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h
